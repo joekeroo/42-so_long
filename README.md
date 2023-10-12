@@ -54,13 +54,13 @@ cd so_long && make
 - The map has to be constructed with 3 components: walls, collectibles, and free space.
 - The map can be composed of only these 5 characters:
 
-|    Characters     |                           Description                           |
-| :---------------: | :-------------------------------------------------------------: |
-|`0`| an empty space|
-|`1`|  a wall|
-|`C`|  a collectible|
-|`E`|  a map exit|
-|`P`|  the player’s starting position|
+| Characters |          Description           |
+| :--------: | :----------------------------: |
+|    `0`     |         an empty space         |
+|    `1`     |             a wall             |
+|    `C`     |         a collectible          |
+|    `E`     |           a map exit           |
+|    `P`     | the player’s starting position |
 
 - The map must contain at least 1 exit, 1 collectible, and 1 starting position.
 - The map must be rectangular.
