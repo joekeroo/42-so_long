@@ -2,6 +2,8 @@
 
 In this project, We will create a basic 2D game in which a dolphin escapes Earth after eating some fish. Instead of a dolphin, fish, and the Earth, we will use any character, any collectible and any place we want.
 
+![Game Demo](https://github.com/joekeroo/42-so_long/assets/58316168/cd8d5bb0-8fc9-4fb6-983f-1333c0018592)
+
 ## About
 
 - You must use [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html). Either the version available on the school machines, or installing it using its sources.
@@ -64,6 +66,10 @@ cd so_long && make
 - The map must be rectangular.
 - The map must be closed/surrounded by walls. If it’s not, the program must return `error`.
 - Any kind of maps will be accepted as long as it respects the above rules.
+- Example of a valid map:
+
+<img alt="map" src="https://github.com/joekeroo/42-so_long/assets/58316168/c4fb1504-25ef-4c6e-ac81-a18cf19876c5">
+<img alt="map demo" src="https://github.com/joekeroo/42-so_long/assets/58316168/5a51a2cd-8b46-4fdc-a522-00109483305e">
 
 ## Bonus
 
