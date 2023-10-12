@@ -9,7 +9,7 @@ In this project, We will create a basic 2D game in which a dolphin escapes Earth
 - Map file extension must end with `.ber`.
 - Game must be in a 2d top-down view.
 - Player must collect all collectibles and find the closest exit to win the game.
-- `W, A, S, D` keys must control the player movement.
+- `W`, `A`, `S`, `D` keys must control the player movement.
 - total number of moves will be shown on the top left of the game.
 - `ESC` key will exit the game.
 - The use of images of the [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html) is mandatory.
@@ -54,18 +54,18 @@ cd so_long && make
 
 |    Characters     |                           Description                           |
 | :---------------: | :-------------------------------------------------------------: |
-|`0`| for an empty space|
-|`1`| for a wall|
-|`C`| for a collectible|
-|`E`| for a map exit|
-|`P`| for the player’s starting position|
+|`0`| an empty space|
+|`1`|  a wall|
+|`C`|  a collectible|
+|`E`|  a map exit|
+|`P`|  the player’s starting position|
 
 - The map must contain at least 1 exit, 1 collectible, and 1 starting position.
 - The map must be rectangular.
 - The map must be closed/surrounded by walls. If it’s not, the program must return `error`.
 - Any kind of maps will be accepted as long as it respects the above rules.
 
-### Bonus
+## Bonus
 
 - Add some sprite animation.
 - Make the player lose when they touch an enemy patrol.
